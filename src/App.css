@@ -5,13 +5,16 @@
 }
 
 .calculator-wrapper {
-  margin: 5rem auto;
+  margin: 1.5rem auto;
   border: 1px solid black;
-  width: 28vw;
+  width: 29vw;
   display: grid;
-  gap: 5px;
-  grid-template-columns: repeat(4, 6rem);
-  grid-template-rows: repeat(6, 6rem);
+  gap: 3px;
+  grid-template-columns: repeat(4, 5.5rem);
+  grid-template-rows: repeat(6, 5rem);
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #f9f9f9;
 }
 
 .screen-wrapper {
@@ -21,16 +24,53 @@
   align-items: flex-end;
   justify-content: space-around;
   border: 1px solid black;
+  padding: 0.5rem;
+  background-color: #222;
+  color: #fff;
+  border-radius: 8px;
 }
 
 .prev-screen {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  color: #aaa;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .curr-screen {
-  font-size:2.5rem;
+  font-size: 2.5rem;
+  text-align: right;
+  word-break: break-all;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.equal, .ac {
+.equal,
+.ac {
   grid-column: span 2;
+}
+
+/* Butonlar */
+button {
+  font-size: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.95);
+  background-color: #ffd700; /* kısa süreli vurgulama rengi */
+}
+
+button.active {
+  background-color: #ffd700; /* kısa süreli vurgulama rengi */
 }
