@@ -1,172 +1,112 @@
-# 🧮 React Calculator Uygulaması  
+# 🧮 React Calculator
 
-Bu proje, kullanıcıların temel matematiksel işlemleri gerçekleştirebileceği **modern bir React tabanlı hesap makinesi uygulamasıdır.**  
-Uygulama, sade ama işlevsel bir arayüz sunar ve hem **fareyle tıklama** hem de **klavye (numpad)** üzerinden kullanım desteği sağlar.  
-
----
-
-## 🚀 Özellikler  
-
-- ✅ **Toplama, çıkarma, çarpma, bölme** gibi temel aritmetik işlemler.  
-- ⌨️ **Klavye desteği:** Numpad veya klavye tuşlarıyla doğrudan işlem yapabilme.  
-- 🖱️ **Fare desteği:** Butonlara tıklayarak giriş yapma.  
-- 💡 **Tuş vurgulama (highlight):** Basılan tuşun kısa süreli vurgulanması ile görsel geri bildirim.  
-- 🧹 **AC (All Clear)** ve **DEL (Delete)** fonksiyonları ile ekran temizleme ve son haneyi silme.  
-- 💬 **Gerçek zamanlı işlem akışı:** Önceki işlem, geçerli sayı ve seçili operatörün ekranda gösterilmesi.  
-- 💻 **Modern arayüz:** React ve CSS kullanılarak oluşturulmuş minimalist tasarım.  
+[TR] [Türkçe](#türkçe) | [ENG] [English](#english) | [DE] [Deutsch](#deutsch)
 
 ---
 
-## 🧩 Kullanılan Teknolojiler  
+<a name="türkçe"></a>
+## 🇹🇷 Türkçe
 
-| Teknoloji | Rolü |
-|------------|------|
-| **React.js (Vite)** | Uygulamanın temel iskeleti ve bileşen yapısı. |
-| **JavaScript (ES6+)** | Hesaplama mantığı, event handling ve state yönetimi. |
-| **useReducer Hook** | Uygulama durumunu yönetmek için Redux benzeri yapı. |
-| **CSS3** | Uygulama arayüzü, grid yapısı ve tuş animasyonları. |
+### Proje Hakkında
+Bu proje, modern **React (v19)** tabanlı, kullanıcı dostu bir hesap makinesi uygulamasıdır. Hem fare tıklamalarını hem de klavye girişlerini destekleyerek kullanıcıya esnek bir deneyim sunar. `useReducer` hook'u ile karmaşık state yönetimi profesyonel bir şekilde ele alınmıştır.
 
----
+### 🚀 Özellikler
+- ✅ **Temel İşlemler:** Toplama, çıkarma, çarpma, bölme.
+- ⌨️ **Klavye Desteği:** Numpad veya standart sayı tuşları ile tam uyum.
+- 🖱️ **Fare Etkileşimi:** İnteraktif ve animasyonlu butonlar.
+- 💡 **Görsel Geri Bildirim:** Basılan tuşların anlık olarak vurgulanması.
+- 🧹 **Gelişmiş Temizleme:** AC (Tümünü Sil) ve DEL (Son Haneyi Sil) fonksiyonları.
+- 💻 **Modern Tasarım:** CSS Grid ile optimize edilmiş minimalist arayüz.
 
-## 📂 Proje Dosya Yapısı  
-
-📁 react-calc  
-├── 📄 App.js  
-├── 📄 App.css  
-├── 📁 Components  
-│ ├── 📄 DigitButton.js  
-│ └── 📄 OperationButton.js  
-└── 📄 README.md  
+### 🧩 Teknolojiler
+- **React.js:** Bileşen tabanlı mimari.
+- **useReducer:** İşlem mantığının merkezi yönetimi.
+- **CSS3:** Grid düzeni ve buton animasyonları.
 
 ---
 
-## ⚙️ Kurulum ve Çalıştırma  
+<a name="english"></a>
+## 🇺🇸 English
 
-Bu projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
+### About the Project
+This project is a modern **React (v19)** based, user-friendly calculator application. It provides a flexible experience by supporting both mouse clicks and keyboard inputs. Complex state management is professionally handled using the `useReducer` hook.
 
-1. Projeyi klonlayın:
+### 🚀 Features
+- ✅ **Basic Operations:** Addition, subtraction, multiplication, division.
+- ⌨️ **Keyboard Support:** Full compatibility with Numpad or standard numeric keys.
+- 🖱️ **Mouse Interaction:** Interactive and animated buttons.
+- 💡 **Visual Feedback:** Instant highlighting of pressed keys.
+- 🧹 **Advanced Clearing:** AC (All Clear) and DEL (Delete last digit) functions.
+- 💻 **Modern Design:** Minimalist interface optimized with CSS Grid.
+
+### 🧩 Technologies
+- **React.js:** Component-based architecture.
+- **useReducer:** Centralized management of calculation logic.
+- **CSS3:** Grid layout and button animations.
+
+---
+
+<a name="deutsch"></a>
+## 🇩🇪 Deutsch
+
+### Über das Projekt
+Dieses Projekt ist eine moderne, benutzerfreundliche Taschenrechner-Anwendung auf Basis von **React (v19)**. Es bietet ein flexibles Erlebnis durch die Unterstützung von Mausklicks und Tastatureingaben. Das komplexe Zustandsmanagement (State Management) wird professionell mit dem `useReducer`-Hook verwaltet.
+
+### 🚀 Funktionen
+- ✅ **Grundrechenarten:** Addition, Subtraktion, Multiplikation, Division.
+- ⌨️ **Tastatur-Unterst��tzung:** Volle Kompatibilität mit dem Nummernblock oder Standard-Zifferntasten.
+- 🖱️ **Maus-Interaktion:** Interaktive und animierte Schaltflächen.
+- 💡 **Visuelles Feedback:** Sofortiges Hervorheben der gedrückten Tasten.
+- 🧹 **Erweitertes Löschen:** Funktionen für AC (Alles löschen) und DEL (Letzte Ziffer löschen).
+- 💻 **Modernes Design:** Minimalistische Benutzeroberfläche, optimiert mit CSS Grid.
+
+### 🧩 Technologien
+- **React.js:** Komponentengebasierte Architektur.
+- **useReducer:** Zentralisierte Verwaltung der Berechnungslogik.
+- **CSS3:** Grid-Layout und Schaltflächenanimationen.
+
+---
+
+## ⚙️ Setup & Installation / Kurulum
+
+1. **Clone the project / Projeyi Klonlayın:**
    ```bash
    git clone https://github.com/mhilmicicek07/react-calc.git
-Proje klasörüne geçin:
+   ```
 
+2. **Navigate to folder / Klasöre gidin:**
+   ```bash
+   cd react-calc
+   ```
 
-cd react-calc
-Gerekli bağımlılıkları yükleyin:
+3. **Install dependencies / Bağımlılıkları yükleyin:**
+   ```bash
+   npm install
+   ```
 
+4. **Run the app / Uygulamayı çalıştırın:**
+   ```bash
+   npm start
+   ```
 
-npm install
-Uygulamayı başlatın:
+---
 
+## 📂 Project Structure / Proje Yapısı
 
-npm start
-Tarayıcıda şu adresi açın:
-👉 http://localhost:3000
+```text
+📁 src
+├── 📄 App.js (Main Logic / Ana Mantık)
+├── 📄 App.css (Styles / Stiller)
+├── 📁 Components
+│   ├── 📄 DigitButton.js
+│   └── 📄 OperationButton.js
+└── 📄 index.js
+```
 
-Artık hesap makinesini hem fareyle hem de klavye numpad’iyle test edebilirsiniz! 🎉
+## 👨‍💻 Developer / Geliştirici
+**Mehmet Hilmi Çiçek**
+- 💼 Full Stack Web Developer
+- 📍 Geislingen an der Steige, Germany
 
-🧠 Teknik Açıklama
-Uygulama, useReducer hook'u ile global state yönetimini sağlar.
-Her tuş etkileşimi bir ACTIONS tipi üzerinden yönlendirilir:
-
-ADD_DIGIT → Yeni rakam ekler
-
-CHOOSE_OPERATION → İşlem türünü belirler (+, -, *, /)
-
-EVALUATE → Hesaplamayı gerçekleştirir
-
-DEL → Son girilen rakamı siler
-
-AC → Tüm ekranı sıfırlar
-
-Ayrıca useEffect ile klavye olayları (keydown) dinlenir.
-Kullanıcı bir tuşa bastığında, hem işlem gerçekleştirilir hem de ilgili buton kısa süreli olarak aktif (highlight) hale gelir.
-
-🎨 Arayüzden Görüntü
-Kullanıcı dostu, basit ve odaklı bir tasarım:
-
-Üst bölümde önceki işlem + operatör + mevcut sayı görünür.
-
-Alt bölümde sayısal ve işlemsel butonlar grid düzeninde yer alır.
-
-= tuşu ve AC / DEL butonları vurgulu biçimde tasarlanmıştır.
-
-👨‍💻 Geliştirici
-Mehmet Hilmi Çiçek
-💼 Full Stack Web Developer
-📍 Geislingen an der Steige
-💬 “Basit ama tutarlı kod, karmaşık olandan her zaman üstündür.”
-
-🪪 Lisans
-Bu proje açık kaynaklıdır.
-Dilerseniz kodu inceleyebilir, öğrenme amaçlı kopyalayabilir veya kendi projelerinizde uyarlayabilirsiniz.
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🪪 License / Lisans
+This project is open-source. / Bu proje açık kaynaklıdır.
